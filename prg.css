@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100;1,200&display=swap');
+
+*{
+	margin:0;
+	padding: 0;
+	box-sizing:border-box;
+	text-decoration: none;
+}
+body{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #f4c2c2;
+}
+
+.form h2{
+	font-size: 40px;
+	margin: 10px;
+}
+.form h4{
+	font-size: 15px;
+     margin: 10px;
+}
+.form h5{
+	margin: 10px;
+}
+
+.form{
+	z-index: 1;
+	font-family: "Poppins" sans-serif;
+	position: absolute;
+	width: 320px;
+	text-align: center;
+}
+
+.form i{
+	z-index: 1;
+	color: #ccc;
+	font-size: 65px;
+	margin-bottom: 30px;
+}
+
+
+.form .input{
+	width: 250px;
+	height: 40px;
+	margin-bottom: 20px;
+	outline: none;
+	border: none;
+	background: rgba(0,0,0,0.2);
+	color: #111;
+	font-size: 18px;
+	text-align: center;
+	border-radius: 3px;
+}
+
+.form .options-01 input{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.form .options-01 .logged-in{
+	color: #bbb;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    float: left;
+    cursor: pointer;
+}
+
+.form .btn input{
+	outline: none;
+	border:none;
+	width: 50px;
+	height: 20px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
